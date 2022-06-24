@@ -1,0 +1,21 @@
+{
+    "name": "audentio/opis-closure-wrapper",
+    "description": "Wrapper for opis/closure to add extra support",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jake Booher",
+            "email": "jakeb@audentio.com"
+        }
+    ],
+    "require": {
+        "opis/closure": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Audentio\\OpisClosureWrapper\\": "src/"
+        },
+        "files": ["functions.php"]
+    }
+}
